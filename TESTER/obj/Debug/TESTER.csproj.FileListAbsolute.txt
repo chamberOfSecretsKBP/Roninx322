@@ -1,0 +1,10 @@
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\bin\Debug\TESTER.exe.config
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\bin\Debug\BD.accdb
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\bin\Debug\TESTER.exe
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\bin\Debug\TESTER.pdb
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\obj\Debug\TESTER.csprojResolveAssemblyReference.cache
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\obj\Debug\TESTER.Form1.resources
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\obj\Debug\TESTER.Properties.Resources.resources
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\obj\Debug\TESTER.csproj.GenerateResource.Cache
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\obj\Debug\TESTER.exe
+c:\users\филипп\documents\visual studio 2013\Projects\TESTER\TESTER\obj\Debug\TESTER.pdb
