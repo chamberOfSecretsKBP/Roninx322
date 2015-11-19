@@ -12,9 +12,9 @@ namespace zapolnYlitkoi
         public void create(int[,] mass)
         {
             int i = 0;
-            int j = -1;
-            int numRow = mass.GetLength(0);
-            int numCol = mass.GetLength(1);
+            int j = 0;
+            int numCol = mass.GetLength(0);
+            int numRow = mass.GetLength(1);
             Random rnd = new Random();
          
         
@@ -22,27 +22,25 @@ namespace zapolnYlitkoi
             int check = 0;
             do
             {
-                for (j = j + 1; j < numRow; j++)
+                for (j = j; j < numRow-1; j++)
                 {
-                    mass[i, j] = rnd.Next(1, 10);
                     check++;
+                    mass[i, j] = rnd.Next(1, 10);
                     Class1.WriteDoubleMass(mass.GetLength(0), mass.GetLength(1), mass);
                     Console.ReadLine();
                 }
                 
-                j--;
-                for (i = i+1; i < numCol; i++)
+                for (i = i; i < numCol-1; i++)
                 {
                     check++;
                     mass[i, j] = rnd.Next(1, 10);
                     Class1.WriteDoubleMass(mass.GetLength(0), mass.GetLength(1), mass);
                     Console.ReadLine();
                 }
-
-                i--;
+                numRow--;
                 numCol--;
 
-                for (j = j - 1; j > mass.GetLength(0) - numRow; j--)
+                for (j = j; j >= mass.GetLength(1) - numRow; j--)
                 {
                     check++;
                     mass[i, j] = rnd.Next(1, 10);
@@ -50,9 +48,7 @@ namespace zapolnYlitkoi
                     Console.ReadLine();
                 }
 
-                numRow--;
-
-                for (i = i; i > mass.GetLength(1)-numCol-1; i--)
+                for (i = i; i > mass.GetLength(0)-numCol-1; i--)
                 {
                     check++;
                     mass[i, j] = rnd.Next(1, 10);
@@ -61,14 +57,14 @@ namespace zapolnYlitkoi
                 }
 
                 i++;
-                
+                j++;
             } while (check != x);
-            
-            
         }
         static void Main(string[] args)
         {
-            int [,] mass = new int[5,5];
+            int n = Convert.ToInt32(Console.ReadLine());
+            int m = Convert.ToInt32(Console.ReadLine());
+            int [,] mass = new int[n,m];
             Program t = new Program();
             t.create(mass);
        

@@ -20,3 +20,10 @@ C:\Users\филипп\Desktop\zapolnYlitkoi\bin\Debug\zapolnYlitkoi.exe
 C:\Users\филипп\Desktop\zapolnYlitkoi\bin\Debug\zapolnYlitkoi.pdb
 C:\Users\филипп\Desktop\zapolnYlitkoi\bin\Debug\MyLibrary.pdb
 C:\Users\филипп\Desktop\zapolnYlitkoi\obj\Debug\zapolnYlitkoi.csprojResolveAssemblyReference.cache
+D:\programm\пяп\Helix\zapolnYlitkoi\bin\Debug\zapolnYlitkoi.exe.config
+D:\programm\пяп\Helix\zapolnYlitkoi\obj\Debug\zapolnYlitkoi.exe
+D:\programm\пяп\Helix\zapolnYlitkoi\obj\Debug\zapolnYlitkoi.pdb
+D:\programm\пяп\Helix\zapolnYlitkoi\bin\Debug\zapolnYlitkoi.exe
+D:\programm\пяп\Helix\zapolnYlitkoi\bin\Debug\zapolnYlitkoi.pdb
+D:\programm\пяп\Helix\zapolnYlitkoi\bin\Debug\MyLibrary.pdb
+D:\programm\пяп\Helix\zapolnYlitkoi\obj\Debug\zapolnYlitkoi.csprojResolveAssemblyReference.cache
